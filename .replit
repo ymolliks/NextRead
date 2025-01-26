@@ -1,0 +1,8 @@
+run = ["sh", "-c", "dotnet run --project NextRead.API/NextRead.API.csproj"]
+modules = ["dotnet-8.0"]
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "dotnet run"]
